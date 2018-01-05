@@ -277,14 +277,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\PDFsharp\src\PdfSharp-gdi\PdfSharp-gdi.csproj">
-      <Project>{5384ce57-1f94-4d22-860d-2e9c1ac12ddf}</Project>
-      <Name>PdfSharp-gdi</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\PDFsharp\src\PdfSharp.Charting-gdi\PdfSharp.Charting-gdi.csproj">
-      <Project>{cfdb7d46-ea8d-47de-b10a-9e755a1b48ba}</Project>
-      <Name>PdfSharp.Charting-gdi</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MigraDoc.DocumentObjectModel-gdi\MigraDoc.DocumentObjectModel-gdi.csproj">
       <Project>{4666abf3-efe5-49bd-b2e8-9e04f5949145}</Project>
       <Name>MigraDoc.DocumentObjectModel-gdi</Name>
@@ -293,11 +285,6 @@
       <Project>{febbe5be-9f58-4967-bbcf-801f1cfcd774}</Project>
       <Name>MigraDoc.Rendering-gdi</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\MigraDoc.RtfRendering\StrongnameKey.snk">
-      <Link>StrongnameKey.snk</Link>
-    </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

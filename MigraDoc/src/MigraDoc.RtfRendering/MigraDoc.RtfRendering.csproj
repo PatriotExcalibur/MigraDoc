@@ -34,10 +34,10 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>StrongnameKey.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>PEX.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PdfSharper, Version=1.7.0.0, Culture=neutral, PublicKeyToken=80b1d9cb89d6d7ad, processorArchitecture=MSIL">
@@ -108,10 +108,10 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="PEX.snk" />
     <None Include="RtfRendering.Resources\Messages.de.restext" />
     <None Include="RtfRendering.Resources\Messages.restext" />
     <None Include="RtfRendering.Resources\PDF.psd" />
-    <None Include="StrongnameKey.snk" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MigraDoc.DocumentObjectModel\MigraDoc.DocumentObjectModel.csproj">

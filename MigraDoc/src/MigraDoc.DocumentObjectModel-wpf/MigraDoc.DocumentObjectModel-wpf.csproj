@@ -599,9 +599,6 @@
     <EmbeddedResource Include="..\MigraDoc.DocumentObjectModel\DocumentObjectModel.Resources\Messages.restext">
       <Link>DocumentObjectModel.Resources\Messages.restext</Link>
     </EmbeddedResource>
-    <None Include="..\MigraDoc.DocumentObjectModel\StrongnameKey.snk">
-      <Link>StrongnameKey.snk</Link>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

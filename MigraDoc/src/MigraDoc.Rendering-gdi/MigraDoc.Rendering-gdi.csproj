@@ -110,14 +110,6 @@
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
     </Reference>
-    <ProjectReference Include="..\..\..\PDFsharp\src\PdfSharp-gdi\PdfSharp-gdi.csproj">
-      <Project>{5384ce57-1f94-4d22-860d-2e9c1ac12ddf}</Project>
-      <Name>PdfSharp-gdi</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\PDFsharp\src\PdfSharp.Charting-gdi\PdfSharp.Charting-gdi.csproj">
-      <Project>{cfdb7d46-ea8d-47de-b10a-9e755a1b48ba}</Project>
-      <Name>PdfSharp.Charting-gdi</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\MigraDoc.Rendering\Properties\AssemblyInfo.cs">
@@ -340,11 +332,6 @@
     <EmbeddedResource Include="..\MigraDoc.Rendering\Rendering.Resources\Messages.restext">
       <Link>Rendering.Resources\Messages.restext</Link>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\MigraDoc.Rendering\StrongnameKey.snk">
-      <Link>StrongnameKey.snk</Link>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Rendering.Printing\" />

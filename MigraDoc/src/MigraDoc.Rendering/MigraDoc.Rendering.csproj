@@ -34,10 +34,10 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>StrongnameKey.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>PEX.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PdfSharper, Version=1.7.0.0, Culture=neutral, PublicKeyToken=80b1d9cb89d6d7ad, processorArchitecture=MSIL">
@@ -124,16 +124,10 @@
     <Compile Include="Rendering\TopDownFormatter.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MigraDoc.DocumentObjectModel\MigraDoc.DocumentObjectModel.csproj">
-      <Project>{6318a852-ef6b-486f-8547-3d7e736d7943}</Project>
-      <Name>MigraDoc.DocumentObjectModel</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Rendering.Resources\Messages.de.restext" />
     <EmbeddedResource Include="Rendering.Resources\Messages.restext" />
     <None Include="packages.config" />
-    <None Include="StrongnameKey.snk" />
+    <None Include="PEX.snk" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Rendering.Resources\Messages2.de.resx">
@@ -143,7 +137,12 @@
       <DependentUpon>Messages2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MigraDoc.DocumentObjectModel\MigraDoc.DocumentObjectModel.csproj">
+      <Project>{6318a852-ef6b-486f-8547-3d7e736d7943}</Project>
+      <Name>MigraDoc.DocumentObjectModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
