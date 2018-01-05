@@ -12,7 +12,8 @@
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
     <AssemblyName>MigraDoc.RtfRendering-wpf</AssemblyName>
-    <AssemblyOriginatorKeyFile>StrongnameKey.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
     <DefaultTargetSchema>IE50</DefaultTargetSchema>
@@ -265,7 +266,6 @@
     <None Include="..\MigraDoc.RtfRendering\RtfRendering.Resources\PDF.psd">
       <Link>RtfRendering.Resources\PDF.psd</Link>
     </None>
-    <None Include="StrongnameKey.snk" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="..\MigraDoc.RtfRendering\RtfRendering.Resources\Messages2.de.resx">
@@ -295,14 +295,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\PDFsharp\src\PdfSharp-wpf\PdfSharp-wpf.csproj">
-      <Project>{02fcc0bb-2aa2-43ba-8d2f-66d168b87a1d}</Project>
-      <Name>PdfSharp-wpf</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\PDFsharp\src\PdfSharp.Charting-wpf\PdfSharp.Charting-wpf.csproj">
-      <Project>{e6a2734e-0cd6-4210-8aec-47ee348f8d78}</Project>
-      <Name>PdfSharp.Charting-wpf</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MigraDoc.DocumentObjectModel-wpf\MigraDoc.DocumentObjectModel-wpf.csproj">
       <Project>{769E6587-72F9-475C-9422-D43ACD4C7AC1}</Project>
       <Name>MigraDoc.DocumentObjectModel-wpf</Name>
