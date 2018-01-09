@@ -40,11 +40,11 @@
     <AssemblyOriginatorKeyFile>PEX.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PdfSharper, Version=1.7.0.0, Culture=neutral, PublicKeyToken=80b1d9cb89d6d7ad, processorArchitecture=MSIL">
-      <HintPath>..\packages\PdfSharper.Charting.1.7.0\lib\net45\PdfSharper.dll</HintPath>
+    <Reference Include="PdfSharper, Version=1.7.1.0, Culture=neutral, PublicKeyToken=80b1d9cb89d6d7ad, processorArchitecture=MSIL">
+      <HintPath>..\packages\PdfSharper.Charting.1.7.1-beta0001\lib\net45\PdfSharper.dll</HintPath>
     </Reference>
-    <Reference Include="PdfSharper.Charting, Version=1.7.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PdfSharper.Charting.1.7.0\lib\net45\PdfSharper.Charting.dll</HintPath>
+    <Reference Include="PdfSharper.Charting, Version=1.7.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PdfSharper.Charting.1.7.1-beta0001\lib\net45\PdfSharper.Charting.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -126,7 +126,10 @@
   <ItemGroup>
     <EmbeddedResource Include="Rendering.Resources\Messages.de.restext" />
     <EmbeddedResource Include="Rendering.Resources\Messages.restext" />
-    <None Include="packages.config" />
+    <None Include="app.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="PEX.snk" />
   </ItemGroup>
   <ItemGroup>
