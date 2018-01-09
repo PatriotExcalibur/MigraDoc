@@ -41,7 +41,6 @@ using MigraDoc.Rendering;
 #endif
 [assembly: AssemblyCopyright(VersionInfo.Copyright)]
 [assembly: AssemblyTrademark(VersionInfo.Trademark)]
-[assembly: AssemblyVersion(VersionInfo.Version)]
 [assembly: AssemblyCulture(VersionInfo.Culture)]
 
 [assembly: ComVisible(false)]
