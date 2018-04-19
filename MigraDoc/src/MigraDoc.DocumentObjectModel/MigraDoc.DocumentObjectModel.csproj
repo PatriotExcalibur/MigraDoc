@@ -31,7 +31,7 @@
     <DocumentationFile>bin\Release\MigraDoc.DocumentObjectModel.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>false</SignAssembly>
+    <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>PEX.snk</AssemblyOriginatorKeyFile>
