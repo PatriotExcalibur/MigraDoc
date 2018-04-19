@@ -37,7 +37,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>PEX.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\PEX.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PdfSharper, Version=1.7.1.0, Culture=neutral, PublicKeyToken=80b1d9cb89d6d7ad, processorArchitecture=MSIL">

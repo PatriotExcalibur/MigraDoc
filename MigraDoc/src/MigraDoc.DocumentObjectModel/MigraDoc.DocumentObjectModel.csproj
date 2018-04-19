@@ -34,7 +34,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>PEX.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\PEX.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
