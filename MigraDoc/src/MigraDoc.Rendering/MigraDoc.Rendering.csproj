@@ -41,7 +41,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PdfSharper, Version=1.7.1.0, Culture=neutral, PublicKeyToken=80b1d9cb89d6d7ad, processorArchitecture=MSIL">
-      <HintPath>..\packages\PdfSharper.Charting.1.7.1-beta0009\lib\net45\PdfSharper.dll</HintPath>
+      <HintPath>..\packages\PdfSharper.1.7.1-beta0010\lib\net45\PdfSharper.dll</HintPath>
     </Reference>
     <Reference Include="PdfSharper.Charting, Version=1.7.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\PdfSharper.Charting.1.7.1-beta0009\lib\net45\PdfSharper.Charting.dll</HintPath>
